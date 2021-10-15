@@ -3,17 +3,20 @@ home: true
 actionText: Розпочати →
 actionLink: /intro/
 
-footer: "ECL 2.0 Licensed | Copyright © 2021 RomanKaplynskyi"
+footer: "ECL 2.0 Licensed | Copyright © 2021 Kaplynskyi"
 ---
 
 
-**Виконали:** 
+**Виконав:** 
 
-*студенти [X]-го курсу, групи (шифр групи)* 
+*Студент 4-го курсу, групи ІП-83* 
 
-**[ім’я ПРІЗВИЩЕ] [Посилання email, tg, fb]**
+**Каплинський Роман Павлович**  
+**E-mail:** zayaz20022001@gmail.com  
+**Telegram:** @Zayazzzz
 
-**[ім’я ПРІЗВИЩЕ] [Посилання email, tg, fb]**
+
+
 
 
 **Керівник**
