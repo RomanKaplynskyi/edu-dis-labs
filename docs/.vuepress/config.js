@@ -45,7 +45,11 @@ module.exports = {
 
     {
       title: 'Реалізація інформаційного та програмного забезпечення',
-      path:"/software/"
+      path:"/software/",
+      children:[
+        '/software/koa-server',
+        '/software/restfull-services',
+      ]
     },
 
     {
