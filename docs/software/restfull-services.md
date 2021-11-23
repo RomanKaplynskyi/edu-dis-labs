@@ -213,7 +213,7 @@ npm start
 Спочатку спробуємо використати різні варіанти зчитування даних:
 - ```options```відсутні - зчитуємо всю колекцію
 <center>
-    <img src="/02-01.jpg" style="
+    <img src="/02_01.jpg" style="
     width:80%;
     margin:1em 0;
     border-radius:4px;
@@ -223,7 +223,7 @@ npm start
 </center>
 - ```options``` присутні у ```query```, але ```id``` не заданий - зчитуємо всю колекцію
 <center>
-    <img src="/02-02.jpg" style="
+    <img src="/02_02.jpg" style="
     width:80%;
     margin:1em 0;
     border-radius:4px;
@@ -233,7 +233,7 @@ npm start
 </center>
 - ```options``` присутні у ```params```
 <center>
-    <img src="/02-03.jpg" style="
+    <img src="/02_03.jpg" style="
     width:80%;
     margin:1em 0;    
     border-radius:4px;
@@ -243,7 +243,7 @@ npm start
 </center>
 - ```options``` присутні у ```query```
 <center>
-    <img src="/02-04.jpg" style="
+    <img src="/02_04.jpg" style="
     width:80%;
     margin:1em 0;
     border-radius:4px;
@@ -257,7 +257,7 @@ npm start
 Створимо новий примірник.
 
 <center>
-    <img src="/02-05.jpg" style="
+    <img src="/02_05.jpg" style="
     width:80%;
     margin:1em 0;
     border-radius:4px;
@@ -269,7 +269,7 @@ npm start
 Перевіремо, що він доданий в кінець колекції.
 
 <center>
-    <img src="/02-06.jpg" style="
+    <img src="/02_06.jpg" style="
     width:80%;
     margin:1em 0;
     border-radius:4px;
@@ -281,7 +281,7 @@ npm start
 Оновимо цей примірник.
 
 <center>
-    <img src="/02-07.jpg" style="
+    <img src="/02_07.jpg" style="
     width:80%;
     margin:1em 0;
     border-radius:4px;
@@ -293,7 +293,7 @@ npm start
 Первіремо оновлення.
 
 <center>
-    <img src="/02-08.jpg" style="
+    <img src="/02_08.jpg" style="
     width:80%;
     margin:1em 0;
     border-radius:4px;
@@ -305,7 +305,7 @@ npm start
 Видалимо його.
 
 <center>
-    <img src="/02-09.jpg" style="
+    <img src="/02_09.jpg" style="
     width:80%;
     margin:1em 0;
     border-radius:4px;
@@ -317,7 +317,7 @@ npm start
 Перевіремо, що примірник видалений.
 
 <center>
-    <img src="/02-10.jpg" style="
+    <img src="/02_10.jpg" style="
     width:80%;
     margin:1em 0;
     border-radius:4px;
