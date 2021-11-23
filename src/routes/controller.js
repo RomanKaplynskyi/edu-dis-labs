@@ -3,7 +3,10 @@ const { findIndex, last, isUndefined } = require("lodash")
 const { v4 } = require("uuid")
 
 
-let _read = options => (options && !isUndefined(options.id)) ? Presidents.filter(p => p.id === options.id)[0] : Presidents
+let _read = options => {
+    let findPresident = Presidents.filter(p => p.id == options.id)
+    return (options && !isUndefined(options.id) && findPresident.length) ? findPresident[0] : Presidents
+}
 
 
 let _update = options  => {
