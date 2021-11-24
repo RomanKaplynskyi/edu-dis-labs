@@ -4,13 +4,15 @@
   "description": "В цьому розділі розміщені програмні коди.",
   "main": "1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server",
     "dev": "nodemon server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.24.0",
+    "jest": "^27.3.1",
     "nodemon": "^2.0.15"
   },
   "dependencies": {

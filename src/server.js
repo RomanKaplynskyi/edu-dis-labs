@@ -11,4 +11,6 @@ app.use(cookie());
 app.use(Serve(config.server.staticPath))
 app.use(router.routes())
 
-app.listen(config.server.port,console.log(`** EDU JACE server starts at port ${config.server.port}`))
+let server = app.listen(config.server.port,console.log(`** EDU JACE server starts at port ${config.server.port}`))
+
+module.exports = server
