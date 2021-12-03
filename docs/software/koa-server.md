@@ -208,14 +208,14 @@ participant middleware2
 participant middleware3
 
 Client -> app: request
-app -> middleware1: request, response, next
+app -> middleware1: ctx, next
 middleware1 -> middleware1
 app <-- middleware1: next()
-app -> middleware2: request, response, next
+app -> middleware2: ctx, next
 middleware2 -> middleware2
 app <-- middleware2: next()
-app -> middleware3: request, response, next
-middleware3 -> middleware3: response.send(...)
+app -> middleware3: ctx, next
+middleware3 -> middleware3: ctx.body = ...
 app <-- middleware3
 Client <-- app: response
 @enduml
